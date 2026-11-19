@@ -8,17 +8,19 @@
 </head>
 <body>
     <div class="container">
-        <h1>Reto Final: Buscador de estudiantes</h1>
-
+        <h1>Buscador de estudiantes</h1>
         <div class="form-row">
-            <input type="text" id="busqueda" placeholder="Buscar estudiante">
-            <button type="button">Buscar</button>
+            <input type="text" id="nombre" placeholder="Buscar estudiante">
+            <button type="button" onclick="buscarEstudiante()">Buscar</button>
         </div>
 
-        <ul id="resultado" class="item-list"></ul>
+        <h2>Resultado</h2>
+        <p id="mensaje" class="result-text"></p>
+        <ul id="lista" class="item-list"></ul>
         <a class="button-link" href="index.html">Volver al inicio</a>
     </div>
 
     <script src="js/ejercicio4.js"></script>
 </body>
+
 </html>
